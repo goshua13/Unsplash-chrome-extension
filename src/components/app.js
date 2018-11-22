@@ -14,7 +14,7 @@ onSearchSubmit = (term) => {
     params: { query: term },
     headers: {
       Authorization: 
-        'Client-ID c6f7a7d7555b18aeb1d528c59411975887851f751ce6e995926c552987540c3a'
+        'Client-ID APIKEYGOESHERE'
     }
   }).then((response) => {
     this.setState({ images: response.data.results });
